@@ -1,0 +1,9 @@
+[submodule "lib/cli"]
+	path = lib/cli
+	url = https://github.com/daniele77/cli.git
+[submodule "lib/googletest"]
+	path = lib/googletest
+	url = https://github.com/google/googletest/
+[submodule "lib/pngwriter"]
+	path = lib/pngwriter
+	url = https://github.com/pngwriter/pngwriter.git

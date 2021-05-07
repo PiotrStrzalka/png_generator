@@ -1,0 +1,12 @@
+@startuml
+    [Program1]
+    [Program2]
+    Program1 -right-> Program2 : picture generation order <<pipe>>
+    Program2 -left-> Program1 : generation result <<pipe>>
+
+    User -right-> Program1 : file with command \n cli
+    Program1 --> log.txt : errors from Program2
+
+    Program2 --> filesystem : generated pictures
+
+@enduml

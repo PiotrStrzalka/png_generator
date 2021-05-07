@@ -1,0 +1,11 @@
+set_width 300
+set_height 200
+draw_rectangle 20 15 150 100
+render Prostokąt.png
+
+set_width 700
+set_height 400
+draw_rectangle 20 15 150 100
+draw_triangle 200 10 300 100 400 10
+draw_rectangle 20 135 150 100
+render Zestaw.png
